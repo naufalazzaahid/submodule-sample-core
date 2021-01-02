@@ -1,2 +1,3 @@
 include ':app'
+include ':submodule-sample-libmodule'
 rootProject.name = "Movie Sample"
