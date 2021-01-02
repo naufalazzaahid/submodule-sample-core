@@ -1,3 +1,2 @@
-include ':LibModule'
 include ':app'
 rootProject.name = "Movie Sample"
