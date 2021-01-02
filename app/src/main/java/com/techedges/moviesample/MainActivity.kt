@@ -5,6 +5,7 @@ import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.techedges.libmodule.ModuleClass
 import com.techedges.moviesample.di.SubcomponentManager
 import com.techedges.moviesample.network.MovieService
 import com.techedges.moviesample.ui.MovieViewModel
@@ -57,6 +58,8 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        subcomponentManager.userComponent
+        val testClassModule = ModuleClass("dari modul")
+
+        Log.v("testsubmodul", testClassModule.nameSample)
     }
 }
